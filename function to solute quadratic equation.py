@@ -13,9 +13,10 @@ def quadratic(a,b,c):
 	else:
 		print('方程无解。')
 a=float(input('输入二次项系数：'))
-b=float(input('输入一次项系数：'))
-c=float(input('输入常数项系数：'))
 if a==0:
 	print('二次项系数不能为0，请重新输入。')
+	a=float(input('输入二次项系数：'))
+	b=float(input('输入一次项系数：'))
+	c=float(input('输入常数项系数：'))
 else:
 	quadratic(a,b,c)
