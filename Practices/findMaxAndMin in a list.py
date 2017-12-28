@@ -9,5 +9,5 @@ def findMaxAndMin(L):
         if j <= b:
             Min=j
     return {'Max:':Max,'Min:':Min}
-L=eval(input('Please enter a list:'))
+L=input('Please enter a list:')
 print(findMaxAndMin(L))
